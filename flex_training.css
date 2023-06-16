@@ -1,56 +1,66 @@
-/* header*/
-
-.menu {
-    display: flex;  
-    flex-direction: row; 
+/* HEADER */
+.menu{
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
-.header-logo {
-    display: flex; /* Включение Flexbox */
-    flex-direction: row;/* Направление расположения блоков относительно Ox*/
-    align-items: center;/* Направление расположения блоков относительно Oy по центру*/
-    flex-grow: 1;/* размер блоу с лого и названия{его вес} относительно других элементов*/
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.logo-img {
+.header-logo{
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* .logo-img{
     margin-right: 40px;
 }
 
-.header-menu {
+.header-menu{
     flex-grow: 3;
-}
-.cards-row {
+} */
+
+/* CARDS */
+
+.cards-row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/* footer */
-.footer-row {
+/* FOOTER */
+
+.footer-row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.social-networks {
+
+.social-networks{
     display: flex;
     justify-content: flex-end;
 }
 
-.footer-logo {
-    margin: 10 px;
-    width: 50 px;
-    height: 50 px;
+.footer-logo{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
 }
 
-.footer-search {
+.footer-search{
     display: flex;
     justify-content: space-between;
-    margin-top: 30 px;
+    margin-top:30px;
     align-items: center;
 }
 
-.footer-search-input {
+.footer-search-input{
     height: 40px;
     flex-grow: 3;
     margin-right: 20px;
@@ -58,12 +68,10 @@
     border: none;
 }
 
-
-.footer-search-button {
+.footer-search-button{
     height: 40px;
     flex-grow: 2;
     border-radius: 10px;
     text-transform: uppercase;
     font-weight: bold;
 }
-
